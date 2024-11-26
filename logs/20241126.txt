@@ -1,0 +1,49 @@
+2024-11-26 21:31:06.241 | INFO     | __main__:main:120 - write a function that 1 + 1
+2024-11-26 21:31:06.252 | INFO     | metagpt.team:invest:90 - Investment: $3.0.
+2024-11-26 21:31:06.254 | DEBUG    | metagpt.environment.base_env:publish_message:144 - publish_message: {"id":"dfb3697f8db446ffa7a08b38f42ac65d","content":"write a function that 1 + 1","role":"Human","cause_by":"metagpt.actions.add_requirement.UserRequirement","sent_from":"","send_to":["<all>"]}
+2024-11-26 21:31:06.254 | DEBUG    | metagpt.team:run:131 - max n_round=4 left.
+2024-11-26 21:31:06.255 | DEBUG    | metagpt.roles.role:_observe:431 - Eden(SimpleCoder) observed: ['Human: write a function tha...']
+2024-11-26 21:31:06.255 | DEBUG    | metagpt.roles.role:_set_state:325 - actions=[SimpleWriteCode], state=0
+2024-11-26 21:31:06.268 | DEBUG    | metagpt.roles.role:_react:462 - Eden(SimpleCoder): self.rc.state=0, will do SimpleWriteCode
+2024-11-26 21:31:06.268 | INFO     | metagpt.roles.role:_act:391 - Eden(SimpleCoder): to do SimpleWriteCode(SimpleWriteCode)
+2024-11-26 21:31:06.271 | DEBUG    | metagpt.provider.base_llm:aask:149 - [{'role': 'user', 'parts': ['\n    Write a python function that can [Human: write a function that 1 + 1].\n    Return ```python your_code_here ``` with NO other texts,\n    your code:\n    ']}]
+2024-11-26 21:31:06.294 | DEBUG    | metagpt.roles.role:run:547 - Bob(SimpleTester): no news. waiting.
+2024-11-26 21:31:06.295 | DEBUG    | metagpt.roles.role:run:547 - Charlie(SimpleReviewer): no news. waiting.
+2024-11-26 21:31:08.961 | INFO     | metagpt.utils.cost_manager:update_cost:57 - Total running cost: $0.000 | Max budget: $3.000 | Current cost: $0.000, prompt_tokens: 45, completion_tokens: 10
+2024-11-26 21:31:08.965 | DEBUG    | metagpt.roles.role:_set_state:325 - actions=[SimpleWriteCode], state=-1
+2024-11-26 21:31:08.965 | DEBUG    | metagpt.environment.base_env:publish_message:144 - publish_message: {"id":"7a5b802354404e8ab3e91a21fbf8e492","content":"\n1 + 1\n","role":"SimpleCoder","cause_by":"__main__.SimpleWriteCode","sent_from":"__main__.SimpleCoder","send_to":["<all>"]}
+2024-11-26 21:31:08.966 | DEBUG    | metagpt.environment.base_env:run:168 - is idle: False
+2024-11-26 21:31:08.966 | DEBUG    | metagpt.team:run:131 - max n_round=3 left.
+2024-11-26 21:31:08.967 | DEBUG    | metagpt.roles.role:run:547 - Eden(SimpleCoder): no news. waiting.
+2024-11-26 21:31:08.967 | DEBUG    | metagpt.roles.role:_observe:431 - Bob(SimpleTester) observed: ['SimpleCoder: \n1 + 1\n...']
+2024-11-26 21:31:08.967 | DEBUG    | metagpt.roles.role:_set_state:325 - actions=[SimpleWriteTest], state=0
+2024-11-26 21:31:08.967 | DEBUG    | metagpt.roles.role:_react:462 - Bob(SimpleTester): self.rc.state=0, will do SimpleWriteTest
+2024-11-26 21:31:08.967 | INFO     | __main__:_act:93 - Bob(SimpleTester): to do SimpleWriteTest(SimpleWriteTest)
+2024-11-26 21:31:08.970 | DEBUG    | metagpt.provider.base_llm:aask:149 - [{'role': 'user', 'parts': ['\n    Context: [Human: write a function that 1 + 1, SimpleCoder: \n1 + 1\n]\n    Write 5 unit tests using pytest for the given function, assuming you have imported it.\n    Return ```python your_code_here ``` with NO other texts,\n    your code:\n    ']}]
+2024-11-26 21:31:08.972 | DEBUG    | metagpt.roles.role:run:547 - Charlie(SimpleReviewer): no news. waiting.
+2024-11-26 21:31:12.110 | INFO     | metagpt.utils.cost_manager:update_cost:57 - Total running cost: $0.000 | Max budget: $3.000 | Current cost: $0.000, prompt_tokens: 72, completion_tokens: 114
+2024-11-26 21:31:12.113 | DEBUG    | metagpt.roles.role:_set_state:325 - actions=[SimpleWriteTest], state=-1
+2024-11-26 21:31:12.113 | DEBUG    | metagpt.environment.base_env:publish_message:144 - publish_message: {"id":"e3228e79ac5e472798bd75f21d2eaea8","content":"\nimport pytest\n\ndef test_1_plus_1():\n    assert 1 + 1 == 2\n\ndef test_2_plus_2():\n    assert 2 + 2 == 4\n\ndef test_3_plus_3():\n    assert 3 + 3 == 6\n\ndef test_4_plus_4():\n    assert 4 + 4 == 8\n\ndef test_5_plus_5():\n    assert 5 + 5 == 10\n","role":"SimpleTester","cause_by":"__main__.SimpleWriteTest","sent_from":"","send_to":["<all>"]}
+2024-11-26 21:31:12.114 | DEBUG    | metagpt.environment.base_env:run:168 - is idle: False
+2024-11-26 21:31:12.115 | DEBUG    | metagpt.team:run:131 - max n_round=2 left.
+2024-11-26 21:31:12.116 | DEBUG    | metagpt.roles.role:run:547 - Eden(SimpleCoder): no news. waiting.
+2024-11-26 21:31:12.116 | DEBUG    | metagpt.roles.role:run:547 - Bob(SimpleTester): no news. waiting.
+2024-11-26 21:31:12.117 | DEBUG    | metagpt.roles.role:_observe:431 - Charlie(SimpleReviewer) observed: ['SimpleTester: \nimport pytest\n\ndef ...']
+2024-11-26 21:31:12.117 | DEBUG    | metagpt.roles.role:_set_state:325 - actions=[SimpleWriteReview], state=0
+2024-11-26 21:31:12.117 | DEBUG    | metagpt.roles.role:_react:462 - Charlie(SimpleReviewer): self.rc.state=0, will do SimpleWriteReview
+2024-11-26 21:31:12.117 | INFO     | metagpt.roles.role:_act:391 - Charlie(SimpleReviewer): to do SimpleWriteReview(SimpleWriteReview)
+2024-11-26 21:31:12.121 | DEBUG    | metagpt.provider.base_llm:aask:149 - [{'role': 'user', 'parts': ['\n    Context: [Human: write a function that 1 + 1, SimpleCoder: \n1 + 1\n, SimpleTester: \nimport pytest\n\ndef test_1_plus_1():\n    assert 1 + 1 == 2\n\ndef test_2_plus_2():\n    assert 2 + 2 == 4\n\ndef test_3_plus_3():\n    assert 3 + 3 == 6\n\ndef test_4_plus_4():\n    assert 4 + 4 == 8\n\ndef test_5_plus_5():\n    assert 5 + 5 == 10\n]\n    Review the test cases and provide one critical comments:\n    ']}]
+2024-11-26 21:31:14.678 | INFO     | metagpt.utils.cost_manager:update_cost:57 - Total running cost: $0.000 | Max budget: $3.000 | Current cost: $0.000, prompt_tokens: 158, completion_tokens: 66
+2024-11-26 21:31:14.682 | DEBUG    | metagpt.roles.role:_set_state:325 - actions=[SimpleWriteReview], state=-1
+2024-11-26 21:31:14.683 | DEBUG    | metagpt.environment.base_env:publish_message:144 - publish_message: {"id":"69a21a34646645a499d3582a4a318729","content":"The test cases are too simple and do not cover edge cases or more complex scenarios. For example, they do not test for negative numbers, floating-point numbers, or errors that may occur during the addition operation. Additionally, the test case names are not descriptive enough and do not provide clear information about what is being tested.","role":"SimpleReviewer","cause_by":"__main__.SimpleWriteReview","sent_from":"__main__.SimpleReviewer","send_to":["<all>"]}
+2024-11-26 21:31:14.683 | DEBUG    | metagpt.environment.base_env:run:168 - is idle: False
+2024-11-26 21:31:14.684 | DEBUG    | metagpt.team:run:131 - max n_round=1 left.
+2024-11-26 21:31:14.684 | DEBUG    | metagpt.roles.role:run:547 - Eden(SimpleCoder): no news. waiting.
+2024-11-26 21:31:14.685 | DEBUG    | metagpt.roles.role:run:547 - Bob(SimpleTester): no news. waiting.
+2024-11-26 21:31:14.685 | DEBUG    | metagpt.roles.role:run:547 - Charlie(SimpleReviewer): no news. waiting.
+2024-11-26 21:31:14.686 | DEBUG    | metagpt.environment.base_env:run:168 - is idle: True
+2024-11-26 21:31:14.686 | DEBUG    | metagpt.team:run:131 - max n_round=0 left.
+2024-11-26 21:31:14.686 | DEBUG    | metagpt.roles.role:run:547 - Eden(SimpleCoder): no news. waiting.
+2024-11-26 21:31:14.687 | DEBUG    | metagpt.roles.role:run:547 - Bob(SimpleTester): no news. waiting.
+2024-11-26 21:31:14.687 | DEBUG    | metagpt.roles.role:run:547 - Charlie(SimpleReviewer): no news. waiting.
+2024-11-26 21:31:14.687 | DEBUG    | metagpt.environment.base_env:run:168 - is idle: True
