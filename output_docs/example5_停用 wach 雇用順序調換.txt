@@ -1,0 +1,43 @@
+[
+    SimpleTester(),
+    SimpleReviewer(),
+    SimpleCoder(),
+]
+
+SimpleWriteReview: The test cases do not cover the edge cases, such as an empty list or a list containing non-numeric values.
+-------------------------------------------------
+SimpleWriteCode: ```python
+def sum_list(list1):
+    sum = 0
+    # Iterate over the list
+    for num in list1:
+        # Add each element of the list to the sum
+        sum = sum + num
+    # Return the sum of the list
+    return sum
+```
+-------------------------------------------------
+SimpleWriteTest: ```python
+import pytest
+
+def sum_list(lst):
+    total = 0
+    for num in lst:
+        total += num
+    return total
+
+def test_empty_list():
+    assert sum_list([]) == 0
+
+def test_single_element_list():
+    assert sum_list([5]) == 5
+
+def test_multiple_elements_list():
+    assert sum_list([1, 2, 3, 4, 5]) == 15
+
+def test_negative_elements_list():
+    assert sum_list([-1, -2, -3, -4, -5]) == -15
+
+def test_mixed_elements_list():
+    assert sum_list([1, -2, 3, -4, 5]) == 3
+```

@@ -1,0 +1,61 @@
+SimpleWriteCode: ```python
+def sum_list(list1):
+    sum = 0
+    # Iterate over the list
+    for num in list1:
+        # Add each element of the list to the sum
+        sum = sum + num
+    # Return the sum of the list
+    return sum
+```
+-------------------------------------------------
+SimpleWriteTest: ```python
+import pytest
+
+def test_empty_list():
+    assert sum_list([]) == 0
+
+def test_single_element_list():
+    assert sum_list([5]) == 5
+
+def test_multiple_elements_list():
+    assert sum_list([1, 2, 3, 4, 5]) == 15
+
+def test_negative_elements_list():
+    assert sum_list([-1, -2, -3, -4, -5]) == -15
+
+def test_mixed_elements_list():
+    assert sum_list([1, -2, 3, -4, 5]) == 3
+```
+-------------------------------------------------
+SimpleWriteReview: One critical comment about the test cases is that they do not test for edge cases, such as lists with duplicate elements or lists with very large or very small numbers. Additionally, the test cases do not test for the case where the input list is not a list at all.
+-------------------------------------------------
+SimpleWriteCode: ```python
+def sum_list(list1):
+    sum = 0
+    # Iterate over the list
+    for num in list1:
+        # Add each element of the list to the sum
+        sum = sum + num
+    # Return the sum of the list
+    return sum
+```
+-------------------------------------------------
+SimpleWriteTest: ```python
+import pytest
+
+def test_empty_list():
+    assert sum_list([]) == 0
+
+def test_single_element_list():
+    assert sum_list([5]) == 5
+
+def test_multiple_elements_list():
+    assert sum_list([1, 2, 3, 4, 5]) == 15
+
+def test_duplicate_elements_list():
+    assert sum_list([1, 2, 3, 4, 5, 1, 2, 3]) == 21
+
+def test_large_numbers_list():
+    assert sum_list([1000000000, 2000000000, 3000000000]) == 6000000000
+```
