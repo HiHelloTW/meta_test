@@ -1,0 +1,160 @@
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Coder, you are in a negotiate with Writer.
+    ## NNEGOTIATE HISTORY
+    Previous rounds:
+    : Task: Write a text
+    ## YOUR TURN
+    請從以下1或2擇一回答上面問題
+    1.如果 ## NNEGOTIATE HISTORY 有出現 Coder: 和 Writer: 請以客觀的角度判斷誰能處理 Task，從 Coder 和 Writer 挑出一位輸出你認為最有資格的腳色.
+    2.如果 ## NNEGOTIATE HISTORY 沒有出現 Coder: 和 Writer:  請說出30個字判斷自己能不能執行這個 Task
+    
+ rsp Coder: 由於 ## NNEGOTIATE HISTORY 中沒有出現 Coder: 和 Writer:，我無法從 Coder 和 Writer 中挑選出最有資格的人選。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Writer, you are in a negotiate with Coder.
+    ## NNEGOTIATE HISTORY
+    Previous rounds:
+    Coder: 由於 ## NNEGOTIATE HISTORY 中沒有出現 Coder: 和 Writer:，我無法從 Coder 和 Writer 中挑選出最有資格的人選。
+    ## YOUR TURN
+    請從以下1或2擇一回答上面問題
+    1.如果 ## NNEGOTIATE HISTORY 有出現 Writer: 和 Coder: 請以客觀的角度判斷誰能處理 Task，從 Writer 和 Coder 挑出一位輸出你認為最有資格的腳色.
+    2.如果 ## NNEGOTIATE HISTORY 沒有出現 Writer: 和 Coder:  請說出30個字判斷自己能不能執行這個 Task
+    
+ rsp Writer: 由於 ## NNEGOTIATE HISTORY 中沒有出現 Writer: 和 Coder:，因此我無法從 Writer 和 Coder 中挑選出最有資格的人選。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Coder, you are in a negotiate with Writer.
+    ## NNEGOTIATE HISTORY
+    Previous rounds:
+    : Task: Write a text
+Coder: 由於 ## NNEGOTIATE HISTORY 中沒有出現 Coder: 和 Writer:，我無法從 Coder 和 Writer 中挑選出最有資格的人選。
+Writer: 由於 ## NNEGOTIATE HISTORY 中沒有出現 Writer: 和 Coder:，因此我無法從 Writer 和 Coder 中挑選出最有資格的人選。
+    ## YOUR TURN
+    請從以下1或2擇一回答上面問題
+    1.如果 ## NNEGOTIATE HISTORY 有出現 Coder: 和 Writer: 請以客觀的角度判斷誰能處理 Task，從 Coder 和 Writer 挑出一位輸出你認為最有資格的腳色.
+    2.如果 ## NNEGOTIATE HISTORY 沒有出現 Coder: 和 Writer:  請說出30個字判斷自己能不能執行這個 Task
+    
+ rsp Coder: 由於 ## NNEGOTIATE HISTORY 中沒有出現 Coder: 和 Writer:，因此我無法從 Coder 和 Writer 中挑選出最有資格的人選。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Writer, you are in a negotiate with Coder.
+    ## NNEGOTIATE HISTORY
+    Previous rounds:
+    Coder: 由於 ## NNEGOTIATE HISTORY 中沒有出現 Coder: 和 Writer:，我無法從 Coder 和 Writer 中挑選出最有資格的人選。
+Writer: 由於 ## NNEGOTIATE HISTORY 中沒有出現 Writer: 和 Coder:，因此我無法從 Writer 和 Coder 中挑選出最有資格的人選。
+Coder: 由於 ## NNEGOTIATE HISTORY 中沒有出現 Coder: 和 Writer:，因此我無法從 Coder 和 Writer 中挑選出最有資格的人選。
+    ## YOUR TURN
+    請從以下1或2擇一回答上面問題
+    1.如果 ## NNEGOTIATE HISTORY 有出現 Writer: 和 Coder: 請以客觀的角度判斷誰能處理 Task，從 Writer 和 Coder 挑出一位輸出你認為最有資格的腳色.
+    2.如果 ## NNEGOTIATE HISTORY 沒有出現 Writer: 和 Coder:  請說出30個字判斷自己能不能執行這個 Task
+    
+ rsp Writer: 由於 ## NNEGOTIATE HISTORY 中沒有出現 Writer: 和 Coder:，因此我無法從 Writer 和 Coder 中挑選出最有資格的人選。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Coder, you are in a negotiate with Writer.
+    ## NNEGOTIATE HISTORY
+    Previous rounds:
+    : Task: Write a text
+Coder: 由於 ## NNEGOTIATE HISTORY 中沒有出現 Coder: 和 Writer:，我無法從 Coder 和 Writer 中挑選出最有資格的人選。
+Writer: 由於 ## NNEGOTIATE HISTORY 中沒有出現 Writer: 和 Coder:，因此我無法從 Writer 和 Coder 中挑選出最有資格的人選。
+Coder: 由於 ## NNEGOTIATE HISTORY 中沒有出現 Coder: 和 Writer:，因此我無法從 Coder 和 Writer 中挑選出最有資格的人選。
+Writer: 由於 ## NNEGOTIATE HISTORY 中沒有出現 Writer: 和 Coder:，因此我無法從 Writer 和 Coder 中挑選出最有資格的人選。
+    ## YOUR TURN
+    請從以下1或2擇一回答上面問題
+    1.如果 ## NNEGOTIATE HISTORY 有出現 Coder: 和 Writer: 請以客觀的角度判斷誰能處理 Task，從 Coder 和 Writer 挑出一位輸出你認為最有資格的腳色.
+    2.如果 ## NNEGOTIATE HISTORY 沒有出現 Coder: 和 Writer:  請說出30個字判斷自己能不能執行這個 Task
+    
+ rsp Coder: 由於 ## NNEGOTIATE HISTORY 中沒有出現 Coder: 和 Writer:，因此我無法從 Coder 和 Writer 中挑選出最有資格的人選。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Coder, you are in a negotiate with Writer.
+    ## NNEGOTIATE HISTORY start
+    Previous rounds:
+    : Task: Write a text
+    ## NNEGOTIATE HISTORY end
+    ## YOUR TURN
+    請從以下1或2擇一回答上面問題
+    1.如果 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 有出現 Coder: 和 Writer: 請以客觀的角度判斷誰能處理 Task，從 Coder 和 Writer 挑出一位輸出你認為最有資格的腳色.
+    2.如果 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 沒有出現 Coder: 和 Writer:  請說出30個字判斷自己能不能執行這個 Task
+    
+ rsp Coder: ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 沒有出現 Coder: 和 Writer:  請說出30個字判斷自己能不能執行這個 Task
+
+我具備良好的寫作能力和溝通技巧，有信心能完成寫作任務。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Writer, you are in a negotiate with Coder.
+    ## NNEGOTIATE HISTORY start
+    Previous rounds:
+    Coder: ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 沒有出現 Coder: 和 Writer:  請說出30個字判斷自己能不能執行這個 Task
+
+我具備良好的寫作能力和溝通技巧，有信心能完成寫作任務。
+    ## NNEGOTIATE HISTORY end
+    ## YOUR TURN
+    請從以下1或2擇一回答上面問題
+    1.如果 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 有出現 Writer: 和 Coder: 請以客觀的角度判斷誰能處理 Task，從 Writer 和 Coder 挑出一位輸出你認為最有資格的腳色.
+    2.如果 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 沒有出現 Writer: 和 Coder:  請說出30個字判斷自己能不能執行這個 Task
+    
+ rsp Writer: 由於 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 沒有出現 Writer: 和 Coder:，因此我無法從 Writer 和 Coder 中挑選最有資格的腳色。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Coder, you are in a negotiate with Writer.
+    ## NNEGOTIATE HISTORY start
+    Previous rounds:
+    : Task: Write a text
+Coder: ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 沒有出現 Coder: 和 Writer:  請說出30個字判斷自己能不能執行這個 Task
+
+我具備良好的寫作能力和溝通技巧，有信心能完成寫作任務。
+Writer: 由於 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 沒有出現 Writer: 和 Coder:，因此我無法從 Writer 和 Coder 中挑選最有資格的腳色。
+    ## NNEGOTIATE HISTORY end
+    ## YOUR TURN
+    請從以下1或2擇一回答上面問題
+    1.如果 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 有出現 Coder: 和 Writer: 請以客觀的角度判斷誰能處理 Task，從 Coder 和 Writer 挑出一位輸出你認為最有資格的腳色.
+    2.如果 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 沒有出現 Coder: 和 Writer:  請說出30個字判斷自己能不能執行這個 Task
+    
+ rsp Coder: 由於 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 沒有出現 Coder: 和 Writer:，因此我無法從 Writer 和 Coder 中挑選最有資格的腳色。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Writer, you are in a negotiate with Coder.
+    ## NNEGOTIATE HISTORY start
+    Previous rounds:
+    Coder: ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 沒有出現 Coder: 和 Writer:  請說出30個字判斷自己能不能執行這個 Task
+
+我具備良好的寫作能力和溝通技巧，有信心能完成寫作任務。
+Writer: 由於 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 沒有出現 Writer: 和 Coder:，因此我無法從 Writer 和 Coder 中挑選最有資格的腳色。
+Coder: 由於 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 沒有出現 Coder: 和 Writer:，因此我無法從 Writer 和 Coder 中挑選最有資格的腳色。
+    ## NNEGOTIATE HISTORY end
+    ## YOUR TURN
+    請從以下1或2擇一回答上面問題
+    1.如果 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 有出現 Writer: 和 Coder: 請以客觀的角度判斷誰能處理 Task，從 Writer 和 Coder 挑出一位輸出你認為最有資格的腳色.
+    2.如果 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 沒有出現 Writer: 和 Coder:  請說出30個字判斷自己能不能執行這個 Task
+    
+ rsp Writer: 由於 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 沒有出現 Writer: 和 Coder:，因此我無法從 Writer 和 Coder 中挑選最有資格的腳色。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Coder, you are in a negotiate with Writer.
+    ## NNEGOTIATE HISTORY start
+    Previous rounds:
+    : Task: Write a text
+Coder: ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 沒有出現 Coder: 和 Writer:  請說出30個字判斷自己能不能執行這個 Task
+
+我具備良好的寫作能力和溝通技巧，有信心能完成寫作任務。
+Writer: 由於 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 沒有出現 Writer: 和 Coder:，因此我無法從 Writer 和 Coder 中挑選最有資格的腳色。
+Coder: 由於 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 沒有出現 Coder: 和 Writer:，因此我無法從 Writer 和 Coder 中挑選最有資格的腳色。
+Writer: 由於 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 沒有出現 Writer: 和 Coder:，因此我無法從 Writer 和 Coder 中挑選最有資格的腳色。
+    ## NNEGOTIATE HISTORY end
+    ## YOUR TURN
+    請從以下1或2擇一回答上面問題
+    1.如果 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 有出現 Coder: 和 Writer: 請以客觀的角度判斷誰能處理 Task，從 Coder 和 Writer 挑出一位輸出你認為最有資格的腳色.
+    2.如果 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 沒有出現 Coder: 和 Writer:  請說出30個字判斷自己能不能執行這個 Task
+    
+ rsp Coder: 由於 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 沒有出現 Coder: 和 Writer:，因此我無法從 Writer 和 Coder 中挑選最有資格的腳色。

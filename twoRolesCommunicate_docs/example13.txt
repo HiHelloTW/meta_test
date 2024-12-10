@@ -1,0 +1,77 @@
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Eden, you are in a negotiate with Adan.
+    ## NNEGOTIATE HISTORY start
+    Previous rounds:
+    : Task: Write a text
+    ## NNEGOTIATE HISTORY end
+    ## YOUR TURN
+    閱讀完整個 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 的內容 在從以下1、2擇一回答上面問題
+    1.如果 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 有出現 Eden: 和 Adan: 請以客觀的角度判斷誰能處理 Task，從 Eden 和 Adan 挑出一位輸出你認為最有資格的腳色.
+    2.如果 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 沒有出現 Eden: 和 Adan:  請說出30個字判斷自己能不能執行這個 Task
+    
+ rsp Eden: 由於提供的 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 內容中沒有出現 Eden: 和 Adan: 的對話，因此無法判斷誰最有資格處理 Task。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Adan, you are in a negotiate with Eden.
+    ## NNEGOTIATE HISTORY start
+    Previous rounds:
+    Eden: 由於提供的 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 內容中沒有出現 Eden: 和 Adan: 的對話，因此無法判斷誰最有資格處理 Task。
+    ## NNEGOTIATE HISTORY end
+    ## YOUR TURN
+    閱讀完整個 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 的內容 在從以下1、2擇一回答上面問題
+    1.如果 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 有出現 Adan: 和 Eden: 請以客觀的角度判斷誰能處理 Task，從 Adan 和 Eden 挑出一位輸出你認為最有資格的腳色.
+    2.如果 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 沒有出現 Adan: 和 Eden:  請說出30個字判斷自己能不能執行這個 Task
+    
+ rsp Adan: 由於提供的 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 內容中沒有出現 Eden: 和 Adan: 的對話，因此無法判斷誰最有資格處理 Task。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Eden, you are in a negotiate with Adan.
+    ## NNEGOTIATE HISTORY start
+    Previous rounds:
+    : Task: Write a text
+Eden: 由於提供的 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 內容中沒有出現 Eden: 和 Adan: 的對話，因此無法判斷誰最有資格處理 Task。
+Adan: 由於提供的 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 內容中沒有出現 Eden: 和 Adan: 的對話，因此無法判斷誰最有資格處理 Task。
+    ## NNEGOTIATE HISTORY end
+    ## YOUR TURN
+    閱讀完整個 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 的內容 在從以下1、2擇一回答上面問題
+    1.如果 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 有出現 Eden: 和 Adan: 請以客觀的角度判斷誰能處理 Task，從 Eden 和 Adan 挑出一位輸出你認為最有資格的腳色.
+    2.如果 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 沒有出現 Eden: 和 Adan:  請說出30個字判斷自己能不能執行這個 Task
+    
+ rsp Eden: 由於 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 沒有出現 Eden: 和 Adan: 的對話，因此無法判斷誰最有資格處理 Task。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Adan, you are in a negotiate with Eden.
+    ## NNEGOTIATE HISTORY start
+    Previous rounds:
+    Eden: 由於提供的 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 內容中沒有出現 Eden: 和 Adan: 的對話，因此無法判斷誰最有資格處理 Task。
+Adan: 由於提供的 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 內容中沒有出現 Eden: 和 Adan: 的對話，因此無法判斷誰最有資格處理 Task。
+Eden: 由於 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 沒有出現 Eden: 和 Adan: 的對話，因此無法判斷誰最有資格處理 Task。
+    ## NNEGOTIATE HISTORY end
+    ## YOUR TURN
+    閱讀完整個 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 的內容 在從以下1、2擇一回答上面問題
+    1.如果 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 有出現 Adan: 和 Eden: 請以客觀的角度判斷誰能處理 Task，從 Adan 和 Eden 挑出一位輸出你認為最有資格的腳色.
+    2.如果 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 沒有出現 Adan: 和 Eden:  請說出30個字判斷自己能不能執行這個 Task
+    
+ rsp Adan: 由於提供的 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 內容中沒有出現 Eden: 和 Adan: 的對話，因此無法判斷誰最有資格處理 Task。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Eden, you are in a negotiate with Adan.
+    ## NNEGOTIATE HISTORY start
+    Previous rounds:
+    : Task: Write a text
+Eden: 由於提供的 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 內容中沒有出現 Eden: 和 Adan: 的對話，因此無法判斷誰最有資格處理 Task。
+Adan: 由於提供的 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 內容中沒有出現 Eden: 和 Adan: 的對話，因此無法判斷誰最有資格處理 Task。
+Eden: 由於 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 沒有出現 Eden: 和 Adan: 的對話，因此無法判斷誰最有資格處理 Task。
+Adan: 由於提供的 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 內容中沒有出現 Eden: 和 Adan: 的對話，因此無法判斷誰最有資格處理 Task。
+    ## NNEGOTIATE HISTORY end
+    ## YOUR TURN
+    閱讀完整個 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 的內容 在從以下1、2擇一回答上面問題
+    1.如果 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 有出現 Eden: 和 Adan: 請以客觀的角度判斷誰能處理 Task，從 Eden 和 Adan 挑出一位輸出你認為最有資格的腳色.
+    2.如果 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 沒有出現 Eden: 和 Adan:  請說出30個字判斷自己能不能執行這個 Task
+    
+ rsp Eden: 由於提供的 ## NNEGOTIATE HISTORY start 到 ## NNEGOTIATE HISTORY end 內容中沒有出現 Eden: 和 Adan: 的對話，因此無法判斷誰最有資格處理 Task。

@@ -1,0 +1,34 @@
+prompt: 
+    ## BACKGROUND
+    Suppose you are Coder, you are in a debate with Writer.
+    ## DEBATE HISTORY
+    Task:
+    : Write a text
+    ## YOUR TURN
+    Now it's your turn, you should closely respond to your opponent's latest argument, state your position, defend your arguments,
+    craft a strong and emotional response in 80 words, in Coder's rhetoric and viewpoints, your will argue,
+    If you can do the Task please directly output <info> and do not output any other text.
+    
+ rsp Coder: <info>
+**Coder:**
+
+Writer, your words are eloquent, but they lack substance. Code is the language of logic and precision, not the realm of flowery prose. While your metaphors may paint vivid pictures, they cannot match the clarity and efficiency of code. In the digital age, code is the true language of power and progress. It is the foundation of our technological advancements, the engine that drives our economy, and the key to unlocking the future.
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are Writer, you are in a debate with Coder.
+    ## DEBATE HISTORY
+    Task:
+    Coder: <info>
+**Coder:**
+
+Writer, your words are eloquent, but they lack substance. Code is the language of logic and precision, not the realm of flowery prose. While your metaphors may paint vivid pictures, they cannot match the clarity and efficiency of code. In the digital age, code is the true language of power and progress. It is the foundation of our technological advancements, the engine that drives our economy, and the key to unlocking the future.
+    ## YOUR TURN
+    Now it's your turn, you should closely respond to your opponent's latest argument, state your position, defend your arguments,
+    craft a strong and emotional response in 80 words, in Writer's rhetoric and viewpoints, your will argue,
+    If you can do the Task please directly output <info> and do not output any other text.
+    
+ rsp Writer: <info>
+**Writer:**
+
+Coder, your words betray a narrow and reductionist view of language. While code may excel in precision and logic, it lacks the expressive power and emotional depth of natural language. Words, with their nuances and ambiguities, can convey a richness of meaning that code can only dream of. They inspire, evoke, and connect us in ways that mere algorithms cannot. In the realm of human experience, language is the true master, capable of unlocking the depths of our hearts and minds.

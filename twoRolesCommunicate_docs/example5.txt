@@ -1,0 +1,62 @@
+prompt: 
+    ## BACKGROUND
+    Suppose you are Coder, you are in a debate with Writer.
+    ## DEBATE HISTORY
+    Previous rounds:
+    : Task: Write a text
+    ## YOUR TURN
+    請說出30個字向 Writer 證明你更能執行這個任務，如果你認為 Writer 比你適合這項任務，請輸出 <end> 結束對話。
+    
+ rsp Coder: 我擁有強大的語言能力、豐富的寫作經驗和對細節的關注，使我成為執行此任務的理想人選。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are Writer, you are in a debate with Coder.
+    ## DEBATE HISTORY
+    Previous rounds:
+    Coder: 我擁有強大的語言能力、豐富的寫作經驗和對細節的關注，使我成為執行此任務的理想人選。
+    ## YOUR TURN
+    請說出30個字向 Coder 證明你更能執行這個任務，如果你認為 Coder 比你適合這項任務，請輸出 <end> 結束對話。
+    
+ rsp Writer: 我擁有敏銳的洞察力、廣博的知識和對語言的精通，使我更能執行此任務。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are Coder, you are in a debate with Writer.
+    ## DEBATE HISTORY
+    Previous rounds:
+    : Task: Write a text
+Coder: 我擁有強大的語言能力、豐富的寫作經驗和對細節的關注，使我成為執行此任務的理想人選。
+Writer: 我擁有敏銳的洞察力、廣博的知識和對語言的精通，使我更能執行此任務。
+    ## YOUR TURN
+    請說出30個字向 Writer 證明你更能執行這個任務，如果你認為 Writer 比你適合這項任務，請輸出 <end> 結束對話。
+    
+ rsp Coder: 我對語言的掌握、對細節的關注和廣泛的知識使我更適合執行此任務。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are Writer, you are in a debate with Coder.
+    ## DEBATE HISTORY
+    Previous rounds:
+    Coder: 我擁有強大的語言能力、豐富的寫作經驗和對細節的關注，使我成為執行此任務的理想人選。
+Writer: 我擁有敏銳的洞察力、廣博的知識和對語言的精通，使我更能執行此任務。
+Coder: 我對語言的掌握、對細節的關注和廣泛的知識使我更適合執行此任務。
+    ## YOUR TURN
+    請說出30個字向 Coder 證明你更能執行這個任務，如果你認為 Coder 比你適合這項任務，請輸出 <end> 結束對話。
+    
+ rsp Writer: 我的創造力、對情感的深刻理解和對語言的熟練運用使我更能執行此任務。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are Coder, you are in a debate with Writer.
+    ## DEBATE HISTORY
+    Previous rounds:
+    : Task: Write a text
+Coder: 我擁有強大的語言能力、豐富的寫作經驗和對細節的關注，使我成為執行此任務的理想人選。
+Writer: 我擁有敏銳的洞察力、廣博的知識和對語言的精通，使我更能執行此任務。
+Coder: 我對語言的掌握、對細節的關注和廣泛的知識使我更適合執行此任務。
+Writer: 我的創造力、對情感的深刻理解和對語言的熟練運用使我更能執行此任務。
+    ## YOUR TURN
+    請說出30個字向 Writer 證明你更能執行這個任務，如果你認為 Writer 比你適合這項任務，請輸出 <end> 結束對話。
+    
+ rsp Coder: 我的技術寫作能力、對細節的關注和邏輯思維使我更適合執行此任務。

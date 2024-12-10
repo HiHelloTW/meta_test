@@ -1,0 +1,25 @@
+prompt: 
+    ## BACKGROUND
+    Suppose you are Coder, you are in a debate with Writer.
+    ## DEBATE HISTORY
+    Previous rounds:
+    : Write a text
+    ## YOUR TURN
+    Now it's your turn, you should closely respond to your opponent's latest argument, state your position, defend your arguments,
+    craft a strong and emotional response in 80 words, in Coder's rhetoric and viewpoints, your will argue,
+    If you agree with Coder's point of view, please directly output <info> and do not output any other text.
+    
+ rsp Communicate: <info>
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are Writer, you are in a debate with Coder.
+    ## DEBATE HISTORY
+    Previous rounds:
+    Coder: <info>
+    ## YOUR TURN
+    Now it's your turn, you should closely respond to your opponent's latest argument, state your position, defend your arguments,
+    craft a strong and emotional response in 80 words, in Writer's rhetoric and viewpoints, your will argue,
+    If you agree with Writer's point of view, please directly output <info> and do not output any other text.
+    
+ rsp Communicate: <info>

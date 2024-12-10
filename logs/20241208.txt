@@ -1,0 +1,2 @@
+2024-12-08 22:15:51.758 | INFO     | metagpt.team:invest:90 - Investment: $3.0.
+2024-12-08 22:22:45.439 | INFO     | metagpt.team:invest:90 - Investment: $3.0.

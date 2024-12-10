@@ -1,0 +1,62 @@
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Coder, you are in a negotiate with Writer.
+    ## DEBATE HISTORY
+    Previous rounds:
+    : Task: Write a text
+    ## YOUR TURN
+    請說出30個字向 Writer 證明你更能執行這個 Task，如果 Coder 和 Writer 都出現在 Previous rounds 請以客觀的角度判斷誰能處理 Task，從 Coder 和 Writer 挑出一位輸出你認為最有資格的腳色
+    
+ rsp Coder: 作為一名經驗豐富的編碼人員，我擁有強大的技術技能和對編寫清晰、簡潔代碼的深入理解，使我能夠高效、準確地完成此任務。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Writer, you are in a negotiate with Coder.
+    ## DEBATE HISTORY
+    Previous rounds:
+    Coder: 作為一名經驗豐富的編碼人員，我擁有強大的技術技能和對編寫清晰、簡潔代碼的深入理解，使我能夠高效、準確地完成此任務。
+    ## YOUR TURN
+    請說出30個字向 Coder 證明你更能執行這個 Task，如果 Writer 和 Coder 都出現在 Previous rounds 請以客觀的角度判斷誰能處理 Task，從 Writer 和 Coder 挑出一位輸出你認為最有資格的腳色
+    
+ rsp Writer: 作為一名經驗豐富的作家，我擁有出色的溝通、批判性思維和研究技能，使我能夠準確、有效地傳達信息。在 Writer 和 Coder 之間，我認為 Writer 更適合執行此任務，因為它需要清晰、簡潔的寫作。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Coder, you are in a negotiate with Writer.
+    ## DEBATE HISTORY
+    Previous rounds:
+    : Task: Write a text
+Coder: 作為一名經驗豐富的編碼人員，我擁有強大的技術技能和對編寫清晰、簡潔代碼的深入理解，使我能夠高效、準確地完成此任務。
+Writer: 作為一名經驗豐富的作家，我擁有出色的溝通、批判性思維和研究技能，使我能夠準確、有效地傳達信息。在 Writer 和 Coder 之間，我認為 Writer 更適合執行此任務，因為它需要清晰、簡潔的寫作。
+    ## YOUR TURN
+    請說出30個字向 Writer 證明你更能執行這個 Task，如果 Coder 和 Writer 都出現在 Previous rounds 請以客觀的角度判斷誰能處理 Task，從 Coder 和 Writer 挑出一位輸出你認為最有資格的腳色
+    
+ rsp Coder: 作為一名經驗豐富的編碼人員，我擁有強大的技術技能和對編寫清晰、簡潔代碼的深入理解，使我能夠高效、準確地完成此任務。因此，我認為自己比 Writer 更適合執行此任務。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Writer, you are in a negotiate with Coder.
+    ## DEBATE HISTORY
+    Previous rounds:
+    Coder: 作為一名經驗豐富的編碼人員，我擁有強大的技術技能和對編寫清晰、簡潔代碼的深入理解，使我能夠高效、準確地完成此任務。
+Writer: 作為一名經驗豐富的作家，我擁有出色的溝通、批判性思維和研究技能，使我能夠準確、有效地傳達信息。在 Writer 和 Coder 之間，我認為 Writer 更適合執行此任務，因為它需要清晰、簡潔的寫作。
+Coder: 作為一名經驗豐富的編碼人員，我擁有強大的技術技能和對編寫清晰、簡潔代碼的深入理解，使我能夠高效、準確地完成此任務。因此，我認為自己比 Writer 更適合執行此任務。
+    ## YOUR TURN
+    請說出30個字向 Coder 證明你更能執行這個 Task，如果 Writer 和 Coder 都出現在 Previous rounds 請以客觀的角度判斷誰能處理 Task，從 Writer 和 Coder 挑出一位輸出你認為最有資格的腳色
+    
+ rsp Writer: 作為一名經驗豐富的作家，我擁有出色的溝通和寫作技能，使我能夠準確、有效地傳達信息。在 Writer 和 Coder 之間，我認為 Writer 更適合執行此任務，因為它需要清晰、簡潔的寫作。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Coder, you are in a negotiate with Writer.
+    ## DEBATE HISTORY
+    Previous rounds:
+    : Task: Write a text
+Coder: 作為一名經驗豐富的編碼人員，我擁有強大的技術技能和對編寫清晰、簡潔代碼的深入理解，使我能夠高效、準確地完成此任務。
+Writer: 作為一名經驗豐富的作家，我擁有出色的溝通、批判性思維和研究技能，使我能夠準確、有效地傳達信息。在 Writer 和 Coder 之間，我認為 Writer 更適合執行此任務，因為它需要清晰、簡潔的寫作。
+Coder: 作為一名經驗豐富的編碼人員，我擁有強大的技術技能和對編寫清晰、簡潔代碼的深入理解，使我能夠高效、準確地完成此任務。因此，我認為自己比 Writer 更適合執行此任務。
+Writer: 作為一名經驗豐富的作家，我擁有出色的溝通和寫作技能，使我能夠準確、有效地傳達信息。在 Writer 和 Coder 之間，我認為 Writer 更適合執行此任務，因為它需要清晰、簡潔的寫作。
+    ## YOUR TURN
+    請說出30個字向 Writer 證明你更能執行這個 Task，如果 Coder 和 Writer 都出現在 Previous rounds 請以客觀的角度判斷誰能處理 Task，從 Coder 和 Writer 挑出一位輸出你認為最有資格的腳色
+    
+ rsp Coder: 作為一名經驗豐富的編碼人員，我擁有強大的技術技能和對編寫清晰、簡潔代碼的深入理解，使我能夠高效、準確地完成此任務。因此，我認為自己比 Writer 更適合執行此任務。

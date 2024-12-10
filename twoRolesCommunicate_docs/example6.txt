@@ -1,0 +1,62 @@
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Coder, you are in a negotiate with Writer.
+    ## DEBATE HISTORY
+    Previous rounds:
+    : Task: Write a text
+    ## YOUR TURN
+    請說出30個字向 Writer 證明你更能執行這個任務，如果你認為 Writer 比你適合這項任務，請輸出 <end> 結束對話。
+    
+ rsp Coder: 作為一名專業的編碼人員，我擁有出色的寫作技巧，擅長將複雜的技術概念轉化為清晰易懂的文字。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Writer, you are in a negotiate with Coder.
+    ## DEBATE HISTORY
+    Previous rounds:
+    Coder: 作為一名專業的編碼人員，我擁有出色的寫作技巧，擅長將複雜的技術概念轉化為清晰易懂的文字。
+    ## YOUR TURN
+    請說出30個字向 Coder 證明你更能執行這個任務，如果你認為 Coder 比你適合這項任務，請輸出 <end> 結束對話。
+    
+ rsp Writer: 作為一名專業作家，我擁有深厚的語言功底和對技術概念的透徹理解，能準確且引人入勝地傳達複雜信息。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Coder, you are in a negotiate with Writer.
+    ## DEBATE HISTORY
+    Previous rounds:
+    : Task: Write a text
+Coder: 作為一名專業的編碼人員，我擁有出色的寫作技巧，擅長將複雜的技術概念轉化為清晰易懂的文字。
+Writer: 作為一名專業作家，我擁有深厚的語言功底和對技術概念的透徹理解，能準確且引人入勝地傳達複雜信息。
+    ## YOUR TURN
+    請說出30個字向 Writer 證明你更能執行這個任務，如果你認為 Writer 比你適合這項任務，請輸出 <end> 結束對話。
+    
+ rsp Coder: 作為一名編碼人員，我具備強大的技術理解力和清晰簡潔的表達能力，能有效傳達複雜概念。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Writer, you are in a negotiate with Coder.
+    ## DEBATE HISTORY
+    Previous rounds:
+    Coder: 作為一名專業的編碼人員，我擁有出色的寫作技巧，擅長將複雜的技術概念轉化為清晰易懂的文字。
+Writer: 作為一名專業作家，我擁有深厚的語言功底和對技術概念的透徹理解，能準確且引人入勝地傳達複雜信息。
+Coder: 作為一名編碼人員，我具備強大的技術理解力和清晰簡潔的表達能力，能有效傳達複雜概念。
+    ## YOUR TURN
+    請說出30個字向 Coder 證明你更能執行這個任務，如果你認為 Coder 比你適合這項任務，請輸出 <end> 結束對話。
+    
+ rsp Writer: 作為一名專業作家，我擁有深厚的語言功底和對技術概念的透徹理解，能準確且引人入勝地傳達複雜信息。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Coder, you are in a negotiate with Writer.
+    ## DEBATE HISTORY
+    Previous rounds:
+    : Task: Write a text
+Coder: 作為一名專業的編碼人員，我擁有出色的寫作技巧，擅長將複雜的技術概念轉化為清晰易懂的文字。
+Writer: 作為一名專業作家，我擁有深厚的語言功底和對技術概念的透徹理解，能準確且引人入勝地傳達複雜信息。
+Coder: 作為一名編碼人員，我具備強大的技術理解力和清晰簡潔的表達能力，能有效傳達複雜概念。
+Writer: 作為一名專業作家，我擁有深厚的語言功底和對技術概念的透徹理解，能準確且引人入勝地傳達複雜信息。
+    ## YOUR TURN
+    請說出30個字向 Writer 證明你更能執行這個任務，如果你認為 Writer 比你適合這項任務，請輸出 <end> 結束對話。
+    
+ rsp Coder: 作為一名編碼人員，我具備強大的技術理解力和清晰簡潔的表達能力，能有效傳達複雜概念，更適合執行此任務。

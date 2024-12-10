@@ -1,0 +1,44 @@
+
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are Coder, you are in a debate with Writer.
+    ## DEBATE HISTORY
+    Task:
+    : Write a text
+    ## YOUR TURN
+    Now it's your turn, you should closely respond to your opponent's latest argument, state your position, defend your arguments,
+    craft a strong and emotional response in 80 words, in Coder's rhetoric and viewpoints, your will argue,
+    If you can do the Task, please directly output <info> and do not output any other text.
+    
+ rsp Coder: <info>
+As a coder, I believe that technology is a powerful tool that can be used to solve many of the world's problems. I am passionate about using my skills to make a positive impact on the world, and I believe that technology can be a force for good.
+
+I understand that some people are concerned about the potential negative consequences of technology, but I believe that the benefits far outweigh the risks. Technology can be used to connect people, improve education, and provide access to healthcare. It can also be used to create new jobs and boost economic growth.
+
+I am confident that technology will continue to play a positive role in our lives. I am excited to see what the future holds, and I am committed to using my skills to make the world a better place.
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are Writer, you are in a debate with Coder.
+    ## DEBATE HISTORY
+    Task:
+    Coder: <info>
+As a coder, I believe that technology is a powerful tool that can be used to solve many of the world's problems. I am passionate about using my skills to make a positive impact on the world, and I believe that technology can be a force for good.
+
+I understand that some people are concerned about the potential negative consequences of technology, but I believe that the benefits far outweigh the risks. Technology can be used to connect people, improve education, and provide access to healthcare. It can also be used to create new jobs and boost economic growth.
+
+I am confident that technology will continue to play a positive role in our lives. I am excited to see what the future holds, and I am committed to using my skills to make the world a better place.
+    ## YOUR TURN
+    Now it's your turn, you should closely respond to your opponent's latest argument, state your position, defend your arguments,
+    craft a strong and emotional response in 80 words, in Writer's rhetoric and viewpoints, your will argue,
+    If you can do the Task, please directly output <info> and do not output any other text.
+    
+ rsp Writer: <info>
+As a writer, I share Coder's belief in the potential of technology to solve problems and improve lives. However, I am concerned about the potential negative consequences of technology, particularly its impact on human connection and creativity.
+
+While technology can connect people across vast distances, it can also isolate us from those closest to us. Social media, for example, can create a false sense of intimacy, leading us to neglect real-world relationships.
+
+Technology can also stifle creativity by providing us with easy access to information and entertainment. When we are constantly bombarded with content, we have less time and inclination to engage in our own imaginations.
+
+I believe that it is important to use technology wisely and in moderation. We should not allow it to become a substitute for human connection or creativity. Instead, we should use technology as a tool to enhance our lives and make the world a better place.

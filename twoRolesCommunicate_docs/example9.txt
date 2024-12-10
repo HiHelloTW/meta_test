@@ -1,0 +1,67 @@
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Coder, you are in a negotiate with Writer.
+    ## DEBATE HISTORY
+    Previous rounds:
+    : Task: Write a text
+    ## YOUR TURN
+    如果 Coder 和 Writer 都出現在 Previous rounds 請以客觀的角度判斷誰能處理 Task，從 Coder 和 Writer 挑出一位輸出你認為最有資格的腳色,
+    如果 Coder 和 Writer 沒有出現的話 請說出30個字向 Writer 證明你更能執行這個 Task
+    
+ rsp Coder: 由於 Coder 和 Writer 都出現在 Previous rounds 中，無法判斷誰能處理 Task。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Writer, you are in a negotiate with Coder.
+    ## DEBATE HISTORY
+    Previous rounds:
+    Coder: 由於 Coder 和 Writer 都出現在 Previous rounds 中，無法判斷誰能處理 Task。
+    ## YOUR TURN
+    如果 Writer 和 Coder 都出現在 Previous rounds 請以客觀的角度判斷誰能處理 Task，從 Writer 和 Coder 挑出一位輸出你認為最有資格的腳色,
+    如果 Writer 和 Coder 沒有出現的話 請說出30個字向 Coder 證明你更能執行這個 Task
+    
+ rsp Writer: 由於 Writer 和 Coder 都出現在 Previous rounds 中，無法判斷誰能處理 Task。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Coder, you are in a negotiate with Writer.
+    ## DEBATE HISTORY
+    Previous rounds:
+    : Task: Write a text
+Coder: 由於 Coder 和 Writer 都出現在 Previous rounds 中，無法判斷誰能處理 Task。
+Writer: 由於 Writer 和 Coder 都出現在 Previous rounds 中，無法判斷誰能處理 Task。
+    ## YOUR TURN
+    如果 Coder 和 Writer 都出現在 Previous rounds 請以客觀的角度判斷誰能處理 Task，從 Coder 和 Writer 挑出一位輸出你認為最有資格的腳色,
+    如果 Coder 和 Writer 沒有出現的話 請說出30個字向 Writer 證明你更能執行這個 Task
+    
+ rsp Coder: 由於 Coder 和 Writer 都出現在 Previous rounds 中，無法判斷誰能處理 Task。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Writer, you are in a negotiate with Coder.
+    ## DEBATE HISTORY
+    Previous rounds:
+    Coder: 由於 Coder 和 Writer 都出現在 Previous rounds 中，無法判斷誰能處理 Task。
+Writer: 由於 Writer 和 Coder 都出現在 Previous rounds 中，無法判斷誰能處理 Task。
+Coder: 由於 Coder 和 Writer 都出現在 Previous rounds 中，無法判斷誰能處理 Task。
+    ## YOUR TURN
+    如果 Writer 和 Coder 都出現在 Previous rounds 請以客觀的角度判斷誰能處理 Task，從 Writer 和 Coder 挑出一位輸出你認為最有資格的腳色,
+    如果 Writer 和 Coder 沒有出現的話 請說出30個字向 Coder 證明你更能執行這個 Task
+    
+ rsp Writer: 由於 Writer 和 Coder 都出現在 Previous rounds 中，無法判斷誰能處理 Task。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Coder, you are in a negotiate with Writer.
+    ## DEBATE HISTORY
+    Previous rounds:
+    : Task: Write a text
+Coder: 由於 Coder 和 Writer 都出現在 Previous rounds 中，無法判斷誰能處理 Task。
+Writer: 由於 Writer 和 Coder 都出現在 Previous rounds 中，無法判斷誰能處理 Task。
+Coder: 由於 Coder 和 Writer 都出現在 Previous rounds 中，無法判斷誰能處理 Task。
+Writer: 由於 Writer 和 Coder 都出現在 Previous rounds 中，無法判斷誰能處理 Task。
+    ## YOUR TURN
+    如果 Coder 和 Writer 都出現在 Previous rounds 請以客觀的角度判斷誰能處理 Task，從 Coder 和 Writer 挑出一位輸出你認為最有資格的腳色,
+    如果 Coder 和 Writer 沒有出現的話 請說出30個字向 Writer 證明你更能執行這個 Task
+    
+ rsp Coder: 由於 Coder 和 Writer 都出現在 Previous rounds 中，無法判斷誰能處理 Task。
