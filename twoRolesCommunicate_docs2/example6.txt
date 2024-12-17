@@ -1,0 +1,99 @@
+
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    You are a number subtracter. You can olny subtracter the number with math question ., named Eden, your goal is .  Suppose you are a team with Adan, you are in a negotiate with Adan.
+    <NEGOTIATE HISTORY>
+    Previous rounds:
+    : 數學問題: 你有 10 顆蘋果買了 5 顆，總共有幾顆
+    </NEGOTIATE HISTORY>
+    ## YOUR TURN
+    確認 <NEGOTIATE HISTORY> 到 </NEGOTIATE HISTORY> 中的問題，重複描述問題，只需要數學問題，重複描述己的專長，判斷自己是不是擅長解決此問題，擅長的話輸出 <yes> 或不擅長輸出 <no> 
+    
+ rsp Eden: 數學問題：你有 10 顆蘋果買了 5 顆，總共有幾顆
+我的專長：數學運算
+我擅長解決此問題：<yes>
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    You are a number adder. You can olny add the number with math question., named Adan, your goal is .  Suppose you are a team with Eden, you are in a negotiate with Eden.
+    <NEGOTIATE HISTORY>
+    Previous rounds:
+    Eden: 數學問題：你有 10 顆蘋果買了 5 顆，總共有幾顆
+我的專長：數學運算
+我擅長解決此問題：<yes>
+    </NEGOTIATE HISTORY>
+    ## YOUR TURN
+    確認 <NEGOTIATE HISTORY> 到 </NEGOTIATE HISTORY> 中的問題。重複描述問題，只需要數學問題，重複描述己的專長，判斷自己是不是擅長解決此問題，擅長的話輸出 <yes> 或不擅長輸出 <no> 
+    
+ rsp Adan: 數學問題：你有 10 顆蘋果買了 5 顆，總共有幾顆
+我的專長：數學運算
+我擅長解決此問題：<yes>
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    You are a number subtracter. You can olny subtracter the number with math question ., named Eden, your goal is .  Suppose you are a team with Adan, you are in a negotiate with Adan.
+    <NEGOTIATE HISTORY>
+    Previous rounds:
+    : 數學問題: 你有 10 顆蘋果買了 5 顆，總共有幾顆
+Eden: 數學問題：你有 10 顆蘋果買了 5 顆，總共有幾顆
+我的專長：數學運算
+我擅長解決此問題：<yes>
+Adan: 數學問題：你有 10 顆蘋果買了 5 顆，總共有幾顆
+我的專長：數學運算
+我擅長解決此問題：<yes>
+    </NEGOTIATE HISTORY>
+    ## YOUR TURN
+    確認 <NEGOTIATE HISTORY> 到 </NEGOTIATE HISTORY> 中的問題，重複描述問題，只需要數學問題，重複描述己的專長，判斷自己是不是擅長解決此問題，擅長的話輸出 <yes> 或不擅長輸出 <no> 
+    
+ rsp Eden: 數學問題：你有 10 顆蘋果買了 5 顆，總共有幾顆
+我的專長：數學運算
+我擅長解決此問題：<yes>
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    You are a number adder. You can olny add the number with math question., named Adan, your goal is .  Suppose you are a team with Eden, you are in a negotiate with Eden.
+    <NEGOTIATE HISTORY>
+    Previous rounds:
+    Eden: 數學問題：你有 10 顆蘋果買了 5 顆，總共有幾顆
+我的專長：數學運算
+我擅長解決此問題：<yes>
+Adan: 數學問題：你有 10 顆蘋果買了 5 顆，總共有幾顆
+我的專長：數學運算
+我擅長解決此問題：<yes>
+Eden: 數學問題：你有 10 顆蘋果買了 5 顆，總共有幾顆
+我的專長：數學運算
+我擅長解決此問題：<yes>
+    </NEGOTIATE HISTORY>
+    ## YOUR TURN
+    確認 <NEGOTIATE HISTORY> 到 </NEGOTIATE HISTORY> 中的問題。重複描述問題，只需要數學問題，重複描述己的專長，判斷自己是不是擅長解決此問題，擅長的話輸出 <yes> 或不擅長輸出 <no> 
+    
+ rsp Adan: 數學問題：你有 10 顆蘋果買了 5 顆，總共有幾顆
+我的專長：數學運算
+我擅長解決此問題：<yes>
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    You are a number subtracter. You can olny subtracter the number with math question ., named Eden, your goal is .  Suppose you are a team with Adan, you are in a negotiate with Adan.
+    <NEGOTIATE HISTORY>
+    Previous rounds:
+    : 數學問題: 你有 10 顆蘋果買了 5 顆，總共有幾顆
+Eden: 數學問題：你有 10 顆蘋果買了 5 顆，總共有幾顆
+我的專長：數學運算
+我擅長解決此問題：<yes>
+Adan: 數學問題：你有 10 顆蘋果買了 5 顆，總共有幾顆
+我的專長：數學運算
+我擅長解決此問題：<yes>
+Eden: 數學問題：你有 10 顆蘋果買了 5 顆，總共有幾顆
+我的專長：數學運算
+我擅長解決此問題：<yes>
+Adan: 數學問題：你有 10 顆蘋果買了 5 顆，總共有幾顆
+我的專長：數學運算
+我擅長解決此問題：<yes>
+    </NEGOTIATE HISTORY>
+    ## YOUR TURN
+    確認 <NEGOTIATE HISTORY> 到 </NEGOTIATE HISTORY> 中的問題，重複描述問題，只需要數學問題，重複描述己的專長，判斷自己是不是擅長解決此問題，擅長的話輸出 <yes> 或不擅長輸出 <no> 
+    
+ rsp Eden: 數學問題：你有 10 顆蘋果買了 5 顆，總共有幾顆
+我的專長：數學運算
+我擅長解決此問題：<yes>

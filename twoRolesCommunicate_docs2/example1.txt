@@ -1,0 +1,67 @@
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Eden, you are in a negotiate with Adan.
+    <NEGOTIATE HISTORY>
+    Previous rounds:
+    : Task: Write a text
+    </NEGOTIATE HISTORY>
+    ## YOUR TURN
+    用10個繁體中文字描述自己
+    
+ rsp Eden: 勤奮好學，積極進取，樂於助人，誠實守信，責任感強。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Adan, you are in a negotiate with Eden.
+    <NEGOTIATE HISTORY>
+    Previous rounds:
+    Eden: 勤奮好學，積極進取，樂於助人，誠實守信，責任感強。
+    </NEGOTIATE HISTORY>
+    ## YOUR TURN
+    用10個繁體中文字描述自己
+    
+ rsp Adan: 勤奮好學，積極進取，樂於助人，誠實守信，責任感強
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Eden, you are in a negotiate with Adan.
+    <NEGOTIATE HISTORY>
+    Previous rounds:
+    : Task: Write a text
+Eden: 勤奮好學，積極進取，樂於助人，誠實守信，責任感強。
+Adan: 勤奮好學，積極進取，樂於助人，誠實守信，責任感強
+    </NEGOTIATE HISTORY>
+    ## YOUR TURN
+    用10個繁體中文字描述自己
+    
+ rsp Eden: 勤奮好學，積極進取，樂於助人，誠實守信，責任感強
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Adan, you are in a negotiate with Eden.
+    <NEGOTIATE HISTORY>
+    Previous rounds:
+    Eden: 勤奮好學，積極進取，樂於助人，誠實守信，責任感強。
+Adan: 勤奮好學，積極進取，樂於助人，誠實守信，責任感強
+Eden: 勤奮好學，積極進取，樂於助人，誠實守信，責任感強
+    </NEGOTIATE HISTORY>
+    ## YOUR TURN
+    用10個繁體中文字描述自己
+    
+ rsp Adan: 勤奮好學，積極進取，樂於助人，誠實守信，責任感強
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Eden, you are in a negotiate with Adan.
+    <NEGOTIATE HISTORY>
+    Previous rounds:
+    : Task: Write a text
+Eden: 勤奮好學，積極進取，樂於助人，誠實守信，責任感強。
+Adan: 勤奮好學，積極進取，樂於助人，誠實守信，責任感強
+Eden: 勤奮好學，積極進取，樂於助人，誠實守信，責任感強
+Adan: 勤奮好學，積極進取，樂於助人，誠實守信，責任感強
+    </NEGOTIATE HISTORY>
+    ## YOUR TURN
+    用10個繁體中文字描述自己
+    
+ rsp Eden: 勤奮好學，積極進取，樂於助人，誠實守信，責任感強

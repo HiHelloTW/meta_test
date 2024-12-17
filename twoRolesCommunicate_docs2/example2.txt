@@ -1,0 +1,135 @@
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Eden, you are in a negotiate with Adan.
+    <NEGOTIATE HISTORY>
+    Previous rounds:
+    : Task: Write a text
+    </NEGOTIATE HISTORY>
+    ## YOUR TURN
+    用10個繁體中文字描述 Eden
+    
+ rsp Eden: 才華洋溢、善於溝通、思慮清晰、目標導向、團隊合作、適應力強、積極主動、解決問題、創造力、熱情
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Adan, you are in a negotiate with Eden.
+    <NEGOTIATE HISTORY>
+    Previous rounds:
+    Eden: 才華洋溢、善於溝通、思慮清晰、目標導向、團隊合作、適應力強、積極主動、解決問題、創造力、熱情
+    </NEGOTIATE HISTORY>
+    ## YOUR TURN
+    用10個繁體中文字描述 Adan
+    
+ rsp Adan: 才華洋溢、溝通清晰、思慮縝密、目標導向、團隊合作、適應力強、積極主動、解決問題、創造力、熱情
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Eden, you are in a negotiate with Adan.
+    <NEGOTIATE HISTORY>
+    Previous rounds:
+    : Task: Write a text
+Eden: 才華洋溢、善於溝通、思慮清晰、目標導向、團隊合作、適應力強、積極主動、解決問題、創造力、熱情
+Adan: 才華洋溢、溝通清晰、思慮縝密、目標導向、團隊合作、適應力強、積極主動、解決問題、創造力、熱情
+    </NEGOTIATE HISTORY>
+    ## YOUR TURN
+    用10個繁體中文字描述 Eden
+    
+ rsp Eden: 才華洋溢、溝通清晰、思慮縝密、目標導向、團隊合作
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Adan, you are in a negotiate with Eden.
+    <NEGOTIATE HISTORY>
+    Previous rounds:
+    Eden: 才華洋溢、善於溝通、思慮清晰、目標導向、團隊合作、適應力強、積極主動、解決問題、創造力、熱情
+Adan: 才華洋溢、溝通清晰、思慮縝密、目標導向、團隊合作、適應力強、積極主動、解決問題、創造力、熱情
+Eden: 才華洋溢、溝通清晰、思慮縝密、目標導向、團隊合作
+    </NEGOTIATE HISTORY>
+    ## YOUR TURN
+    用10個繁體中文字描述 Adan
+    
+ rsp Adan: 才華洋溢、溝通清晰、思慮縝密、目標導向、團隊合作
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Eden, you are in a negotiate with Adan.
+    <NEGOTIATE HISTORY>
+    Previous rounds:
+    : Task: Write a text
+Eden: 才華洋溢、善於溝通、思慮清晰、目標導向、團隊合作、適應力強、積極主動、解決問題、創造力、熱情
+Adan: 才華洋溢、溝通清晰、思慮縝密、目標導向、團隊合作、適應力強、積極主動、解決問題、創造力、熱情
+Eden: 才華洋溢、溝通清晰、思慮縝密、目標導向、團隊合作
+Adan: 才華洋溢、溝通清晰、思慮縝密、目標導向、團隊合作
+    </NEGOTIATE HISTORY>
+    ## YOUR TURN
+    用10個繁體中文字描述 Eden
+    
+ rsp Eden: 才華洋溢、溝通清晰、思慮縝密、目標導向、團隊合作
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Eden, you are in a negotiate with Adan.
+    <NEGOTIATE HISTORY>
+    Previous rounds:
+    : Task: Write a text
+    </NEGOTIATE HISTORY>
+    ## YOUR TURN
+    用10個繁體中文字描述 Eden
+    
+ rsp Eden: 才華洋溢、善於溝通、具備領導力、注重細節、有條理、積極主動、善解人意、富有同理心、有責任感、值得信賴
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Adan, you are in a negotiate with Eden.
+    <NEGOTIATE HISTORY>
+    Previous rounds:
+    Eden: 才華洋溢、善於溝通、具備領導力、注重細節、有條理、積極主動、善解人意、富有同理心、有責任感、值得信賴
+    </NEGOTIATE HISTORY>
+    ## YOUR TURN
+    用10個繁體中文字描述 Adan
+    
+ rsp Adan: 才華洋溢、溝通能力強、領導能力佳、注重細節、條理分明、積極主動、善解人意、同理心強、負責任、值得信賴
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Eden, you are in a negotiate with Adan.
+    <NEGOTIATE HISTORY>
+    Previous rounds:
+    : Task: Write a text
+Eden: 才華洋溢、善於溝通、具備領導力、注重細節、有條理、積極主動、善解人意、富有同理心、有責任感、值得信賴
+Adan: 才華洋溢、溝通能力強、領導能力佳、注重細節、條理分明、積極主動、善解人意、同理心強、負責任、值得信賴
+    </NEGOTIATE HISTORY>
+    ## YOUR TURN
+    用10個繁體中文字描述 Eden
+    
+ rsp Eden: 才華洋溢，溝通力強，領導有方，注重細節，條理分明
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Adan, you are in a negotiate with Eden.
+    <NEGOTIATE HISTORY>
+    Previous rounds:
+    Eden: 才華洋溢、善於溝通、具備領導力、注重細節、有條理、積極主動、善解人意、富有同理心、有責任感、值得信賴
+Adan: 才華洋溢、溝通能力強、領導能力佳、注重細節、條理分明、積極主動、善解人意、同理心強、負責任、值得信賴
+Eden: 才華洋溢，溝通力強，領導有方，注重細節，條理分明
+    </NEGOTIATE HISTORY>
+    ## YOUR TURN
+    用10個繁體中文字描述 Adan
+    
+ rsp Adan: 才華洋溢、溝通流暢、領導卓越、注重細節、條理分明
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    Suppose you are a team with Eden, you are in a negotiate with Adan.
+    <NEGOTIATE HISTORY>
+    Previous rounds:
+    : Task: Write a text
+Eden: 才華洋溢、善於溝通、具備領導力、注重細節、有條理、積極主動、善解人意、富有同理心、有責任感、值得信賴
+Adan: 才華洋溢、溝通能力強、領導能力佳、注重細節、條理分明、積極主動、善解人意、同理心強、負責任、值得信賴
+Eden: 才華洋溢，溝通力強，領導有方，注重細節，條理分明
+Adan: 才華洋溢、溝通流暢、領導卓越、注重細節、條理分明
+    </NEGOTIATE HISTORY>
+    ## YOUR TURN
+    用10個繁體中文字描述 Eden
+    
+ rsp Eden: 才華洋溢、溝通流暢、領導卓越、注重細節、條理分明

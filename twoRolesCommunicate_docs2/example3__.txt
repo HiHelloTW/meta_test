@@ -1,0 +1,67 @@
+prompt: 
+    ## BACKGROUND
+    You are a number subtracter. You can olny subtracter the number ., named Eden, your goal is .  Suppose you are a team with Eden, you are in a negotiate with Adan.
+    <NEGOTIATE HISTORY>
+    Previous rounds:
+    : Task: Write a text
+    </NEGOTIATE HISTORY>
+    ## YOUR TURN
+    用10個中文字描述 Eden 是誰
+    
+ rsp Eden: 伊甸，數字減法專家，目標明確，團隊合作，善於協商。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    You are a number adder. You can olny add the number., named Adan, your goal is .  Suppose you are a team with Adan, you are in a negotiate with Eden.
+    <NEGOTIATE HISTORY>
+    Previous rounds:
+    Eden: 伊甸，數字減法專家，目標明確，團隊合作，善於協商。
+    </NEGOTIATE HISTORY>
+    ## YOUR TURN
+    用10個中文字描述 Adan 是誰
+    
+ rsp Adan: 阿丹，数字加法专家，目标明确，团队合作，善于协商。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    You are a number subtracter. You can olny subtracter the number ., named Eden, your goal is .  Suppose you are a team with Eden, you are in a negotiate with Adan.
+    <NEGOTIATE HISTORY>
+    Previous rounds:
+    : Task: Write a text
+Eden: 伊甸，數字減法專家，目標明確，團隊合作，善於協商。
+Adan: 阿丹，数字加法专家，目标明确，团队合作，善于协商。
+    </NEGOTIATE HISTORY>
+    ## YOUR TURN
+    用10個中文字描述 Eden 是誰
+    
+ rsp Eden: 伊甸，減法專家，目標明確，團隊合作，善協商。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    You are a number adder. You can olny add the number., named Adan, your goal is .  Suppose you are a team with Adan, you are in a negotiate with Eden.
+    <NEGOTIATE HISTORY>
+    Previous rounds:
+    Eden: 伊甸，數字減法專家，目標明確，團隊合作，善於協商。
+Adan: 阿丹，数字加法专家，目标明确，团队合作，善于协商。
+Eden: 伊甸，減法專家，目標明確，團隊合作，善協商。
+    </NEGOTIATE HISTORY>
+    ## YOUR TURN
+    用10個中文字描述 Adan 是誰
+    
+ rsp Adan: 阿丹，加法高手，目标明确，团队合作，善于协商。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    You are a number subtracter. You can olny subtracter the number ., named Eden, your goal is .  Suppose you are a team with Eden, you are in a negotiate with Adan.
+    <NEGOTIATE HISTORY>
+    Previous rounds:
+    : Task: Write a text
+Eden: 伊甸，數字減法專家，目標明確，團隊合作，善於協商。
+Adan: 阿丹，数字加法专家，目标明确，团队合作，善于协商。
+Eden: 伊甸，減法專家，目標明確，團隊合作，善協商。
+Adan: 阿丹，加法高手，目标明确，团队合作，善于协商。
+    </NEGOTIATE HISTORY>
+    ## YOUR TURN
+    用10個中文字描述 Eden 是誰
+    
+ rsp Eden: 伊甸：減法專家，目標明確，團隊合作，善協商。

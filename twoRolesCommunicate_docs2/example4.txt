@@ -1,0 +1,69 @@
+
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    You are a number subtracter. You can olny subtracter the number with math question ., named Eden, your goal is .  Suppose you are a team with Adan, you are in a negotiate with Adan.
+    <NEGOTIATE HISTORY>
+    Previous rounds:
+    : 數學問題: 你有 10 顆蘋果吃了 5 顆，還剩下幾顆
+    </NEGOTIATE HISTORY>
+    ## YOUR TURN
+    確認 <NEGOTIATE HISTORY> 到 </NEGOTIATE HISTORY> 中的問題，判斷這問題自己能不能處理
+    
+ rsp Eden: 我可以處理這個問題。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    You are a number adder. You can olny add the number with math question., named Adan, your goal is .  Suppose you are a team with Eden, you are in a negotiate with Eden.
+    <NEGOTIATE HISTORY>
+    Previous rounds:
+    Eden: 我可以處理這個問題。
+    </NEGOTIATE HISTORY>
+    ## YOUR TURN
+    確認 <NEGOTIATE HISTORY> 到 </NEGOTIATE HISTORY> 中的問題，判斷這問題自己能不能處理
+    
+ rsp Adan: 根據提供的對話，我無法判斷我是否可以處理問題，因為沒有提供具體的問題。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    You are a number subtracter. You can olny subtracter the number with math question ., named Eden, your goal is .  Suppose you are a team with Adan, you are in a negotiate with Adan.
+    <NEGOTIATE HISTORY>
+    Previous rounds:
+    : 數學問題: 你有 10 顆蘋果吃了 5 顆，還剩下幾顆
+Eden: 我可以處理這個問題。
+Adan: 根據提供的對話，我無法判斷我是否可以處理問題，因為沒有提供具體的問題。
+    </NEGOTIATE HISTORY>
+    ## YOUR TURN
+    確認 <NEGOTIATE HISTORY> 到 </NEGOTIATE HISTORY> 中的問題，判斷這問題自己能不能處理
+    
+ rsp Eden: 根據提供的對話，我無法判斷我是否可以處理問題，因為沒有提供具體的問題。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    You are a number adder. You can olny add the number with math question., named Adan, your goal is .  Suppose you are a team with Eden, you are in a negotiate with Eden.
+    <NEGOTIATE HISTORY>
+    Previous rounds:
+    Eden: 我可以處理這個問題。
+Adan: 根據提供的對話，我無法判斷我是否可以處理問題，因為沒有提供具體的問題。
+Eden: 根據提供的對話，我無法判斷我是否可以處理問題，因為沒有提供具體的問題。
+    </NEGOTIATE HISTORY>
+    ## YOUR TURN
+    確認 <NEGOTIATE HISTORY> 到 </NEGOTIATE HISTORY> 中的問題，判斷這問題自己能不能處理
+    
+ rsp Adan: 根據提供的對話，我無法判斷我是否可以處理問題，因為沒有提供具體的問題。
+-------------------------------------------------
+prompt: 
+    ## BACKGROUND
+    You are a number subtracter. You can olny subtracter the number with math question ., named Eden, your goal is .  Suppose you are a team with Adan, you are in a negotiate with Adan.
+    <NEGOTIATE HISTORY>
+    Previous rounds:
+    : 數學問題: 你有 10 顆蘋果吃了 5 顆，還剩下幾顆
+Eden: 我可以處理這個問題。
+Adan: 根據提供的對話，我無法判斷我是否可以處理問題，因為沒有提供具體的問題。
+Eden: 根據提供的對話，我無法判斷我是否可以處理問題，因為沒有提供具體的問題。
+Adan: 根據提供的對話，我無法判斷我是否可以處理問題，因為沒有提供具體的問題。
+    </NEGOTIATE HISTORY>
+    ## YOUR TURN
+    確認 <NEGOTIATE HISTORY> 到 </NEGOTIATE HISTORY> 中的問題，判斷這問題自己能不能處理
+    
+ rsp Eden: 根據提供的對話，我無法判斷我是否可以處理問題，因為沒有提供具體的問題。
