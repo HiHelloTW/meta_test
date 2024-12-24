@@ -1,0 +1,151 @@
+2024-12-24 21:04:03.336 | INFO     | metagpt.team:invest:90 - Investment: $3.0.
+2024-12-24 21:04:03.340 | DEBUG    | metagpt.environment.base_env:publish_message:144 - publish_message: {"id":"db2b8b2250594a58b3926376f1a3ae52","content":"將查克拉凝聚在手上，搓出螺旋丸","role":"Human","cause_by":"metagpt.actions.add_requirement.UserRequirement","sent_from":"","send_to":["leader"]}
+2024-12-24 21:04:03.341 | DEBUG    | metagpt.team:run:131 - max n_round=4 left.
+2024-12-24 21:04:03.342 | DEBUG    | metagpt.roles.role:_observe:431 - leader(leader 負責分配工作) observed: ['Human: 將查克拉凝聚在手上，搓出螺旋丸...']
+2024-12-24 21:04:03.342 | DEBUG    | metagpt.roles.role:_set_state:325 - actions=[AssignJobs], state=0
+2024-12-24 21:04:03.421 | DEBUG    | metagpt.roles.role:_react:462 - leader(leader 負責分配工作): self.rc.state=0, will do AssignJobs
+2024-12-24 21:04:03.421 | INFO     | __main__:_act:117 - leader(leader 負責分配工作): to do AssignJobs
+2024-12-24 21:04:03.424 | DEBUG    | metagpt.provider.base_llm:aask:149 - [{'role': 'user', 'parts': ['\n    ## \n    "你是一位高效能的領導者，擁有出色的組織能力和溝通技巧。\n    你的責任是根據團隊成員的技能、興趣和工作負荷，明智地分配工作，確保專案成功並鼓勵團隊合作。\n    在每次任務分配時，你會明確說明每個成員的角色、任務的目標、完成的期限，以及可供使用的資源。\n    如果有成員需要幫助或資源不足，你會提出建議或調整計劃。以下是團隊背景與需要完成的任務："\n    \n    示例：\n    "團隊背景：    \n    Eden: Python Coder\nAdan: JavaScript Coder\n        \n    需要完成的任務：\n    : 將查克拉凝聚在手上，搓出螺旋丸\n    \n    請開始分配任務，並確保考慮到團隊背景成員的強項"\n    決定後只用 "<成員名稱>" 生成以下文字 \n    例如:\n    <Leader>。\n    ']}]
+2024-12-24 21:04:03.619 | DEBUG    | metagpt.roles.role:run:547 - Eden(Python Coder): no news. waiting.
+2024-12-24 21:04:03.620 | DEBUG    | metagpt.roles.role:run:547 - Adan(JavaScript Coder): no news. waiting.
+2024-12-24 21:04:08.158 | INFO     | metagpt.utils.cost_manager:update_cost:57 - Total running cost: $0.000 | Max budget: $3.000 | Current cost: $0.000, prompt_tokens: 209, completion_tokens: 4
+2024-12-24 21:04:08.162 | DEBUG    | metagpt.roles.role:_set_state:325 - actions=[AssignJobs], state=-1
+2024-12-24 21:04:08.163 | DEBUG    | metagpt.environment.base_env:publish_message:144 - publish_message: {"id":"35b3941eec1341729c3aadd26f47b5fb","content":": 將查克拉凝聚在手上，搓出螺旋丸","role":"leader 負責分配工作","cause_by":"__main__.AssignJobs","sent_from":"leader","send_to":["Eden"]}
+2024-12-24 21:04:08.164 | DEBUG    | metagpt.environment.base_env:run:169 - is idle: False
+2024-12-24 21:04:08.164 | DEBUG    | metagpt.team:run:131 - max n_round=3 left.
+2024-12-24 21:04:08.164 | DEBUG    | metagpt.roles.role:run:547 - leader(leader 負責分配工作): no news. waiting.
+2024-12-24 21:04:08.164 | DEBUG    | metagpt.roles.role:_observe:431 - Eden(Python Coder) observed: ['leader 負責分配工作: : 將查克拉凝聚在手上，搓出螺旋丸...']
+2024-12-24 21:04:08.165 | DEBUG    | metagpt.roles.role:_set_state:325 - actions=[SimpleWriteCode], state=0
+2024-12-24 21:04:08.166 | DEBUG    | metagpt.roles.role:_react:462 - Eden(Python Coder): self.rc.state=0, will do SimpleWriteCode
+2024-12-24 21:04:08.167 | INFO     | __main__:_act:179 - Eden(Python Coder): to do SimpleWriteCode(SimpleWriteCode)
+2024-12-24 21:04:08.169 | DEBUG    | metagpt.provider.base_llm:aask:149 - [{'role': 'user', 'parts': ['\n    : 將查克拉凝聚在手上，搓出螺旋丸.\n    Return ``` your_code_here ``` with NO other texts,\n    your code:\n    ']}]
+2024-12-24 21:04:08.170 | DEBUG    | metagpt.roles.role:run:547 - Adan(JavaScript Coder): no news. waiting.
+2024-12-24 21:04:10.558 | WARNING  | metagpt.provider.google_gemini_api:_achat_completion_stream:149 - messages: [{'role': 'user', 'parts': ['\n    : 將查克拉凝聚在手上，搓出螺旋丸.\n    Return ``` your_code_here ``` with NO other texts,\n    your code:\n    ']}]
+errors: The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({'candidates': [{'finish_reason': 3, 'index': 0, 'safety_ratings': [{'category': 9, 'probability': 1, 'blocked': False}, {'category': 8, 'probability': 1, 'blocked': False}, {'category': 7, 'probability': 1, 'blocked': False}, {'category': 10, 'probability': 3, 'blocked': False}], 'token_count': 0, 'grounding_attributions': []}]}),
+)
+2024-12-24 21:04:10.568 | WARNING  | metagpt.utils.common:wrapper:649 - There is a exception in role's execution, in order to resume, we delete the newest role communication message in the role's memory.
+2024-12-24 21:04:10.898 | ERROR    | metagpt.utils.common:wrapper:631 - Exception occurs, start to serialize the project, exp:
+Traceback (most recent call last):
+  File "C:\Users\user\.conda\envs\meta_test_env\lib\site-packages\metagpt\provider\google_gemini_api.py", line 147, in _achat_completion_stream
+    content = chunk.text
+  File "C:\Users\user\.conda\envs\meta_test_env\lib\site-packages\google\generativeai\types\generation_types.py", line 333, in text
+    raise ValueError(
+ValueError: The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\.conda\envs\meta_test_env\lib\site-packages\metagpt\utils\common.py", line 640, in wrapper
+    return await func(self, *args, **kwargs)
+  File "C:\Users\user\.conda\envs\meta_test_env\lib\site-packages\metagpt\roles\role.py", line 550, in run
+    rsp = await self.react()
+google.generativeai.types.generation_types.BlockedPromptException: response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({'candidates': [{'finish_reason': 3, 'index': 0, 'safety_ratings': [{'category': 9, 'probability': 1, 'blocked': False}, {'category': 8, 'probability': 1, 'blocked': False}, {'category': 7, 'probability': 1, 'blocked': False}, {'category': 10, 'probability': 3, 'blocked': False}], 'token_count': 0, 'grounding_attributions': []}]}),
+)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\.conda\envs\meta_test_env\lib\site-packages\metagpt\utils\common.py", line 626, in wrapper
+    result = await func(self, *args, **kwargs)
+  File "C:\Users\user\.conda\envs\meta_test_env\lib\site-packages\metagpt\team.py", line 134, in run
+    await self.env.run()
+Exception: Traceback (most recent call last):
+  File "C:\Users\user\.conda\envs\meta_test_env\lib\site-packages\metagpt\provider\google_gemini_api.py", line 147, in _achat_completion_stream
+    content = chunk.text
+  File "C:\Users\user\.conda\envs\meta_test_env\lib\site-packages\google\generativeai\types\generation_types.py", line 333, in text
+    raise ValueError(
+ValueError: The `response.text` quick accessor only works when the response contains a valid `Part`, but none was returned. Check the `candidate.safety_ratings` to see if the response was blocked.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\.conda\envs\meta_test_env\lib\site-packages\metagpt\utils\common.py", line 640, in wrapper
+    return await func(self, *args, **kwargs)
+  File "C:\Users\user\.conda\envs\meta_test_env\lib\site-packages\metagpt\roles\role.py", line 550, in run
+    rsp = await self.react()
+  File "C:\Users\user\.conda\envs\meta_test_env\lib\site-packages\metagpt\roles\role.py", line 517, in react
+    rsp = await self._react()
+  File "C:\Users\user\.conda\envs\meta_test_env\lib\site-packages\metagpt\roles\role.py", line 463, in _react
+    rsp = await self._act()
+  File "d:\git\meta_test\firstTest\assignJobs.py", line 183, in _act
+    code_text = await todo.run(msg.content)
+  File "d:\git\meta_test\firstTest\assignJobs.py", line 153, in run
+    rsp = await self._aask(prompt)
+  File "C:\Users\user\.conda\envs\meta_test_env\lib\site-packages\metagpt\actions\action.py", line 93, in _aask
+    return await self.llm.aask(prompt, system_msgs)
+  File "C:\Users\user\.conda\envs\meta_test_env\lib\site-packages\metagpt\provider\base_llm.py", line 150, in aask
+    rsp = await self.acompletion_text(message, stream=stream, timeout=self.get_timeout(timeout))
+  File "C:\Users\user\.conda\envs\meta_test_env\lib\site-packages\tenacity\_asyncio.py", line 88, in async_wrapped
+    return await fn(*args, **kwargs)
+  File "C:\Users\user\.conda\envs\meta_test_env\lib\site-packages\tenacity\_asyncio.py", line 47, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\user\.conda\envs\meta_test_env\lib\site-packages\tenacity\__init__.py", line 314, in iter
+    return fut.result()
+  File "C:\Users\user\.conda\envs\meta_test_env\lib\concurrent\futures\_base.py", line 439, in result
+    return self.__get_result()
+  File "C:\Users\user\.conda\envs\meta_test_env\lib\concurrent\futures\_base.py", line 391, in __get_result
+    raise self._exception
+  File "C:\Users\user\.conda\envs\meta_test_env\lib\site-packages\tenacity\_asyncio.py", line 50, in __call__
+    result = await fn(*args, **kwargs)
+  File "C:\Users\user\.conda\envs\meta_test_env\lib\site-packages\metagpt\provider\base_llm.py", line 200, in acompletion_text
+    return await self._achat_completion_stream(messages, timeout=self.get_timeout(timeout))
+  File "C:\Users\user\.conda\envs\meta_test_env\lib\site-packages\metagpt\provider\google_gemini_api.py", line 150, in _achat_completion_stream
+    raise BlockedPromptException(str(chunk))
+google.generativeai.types.generation_types.BlockedPromptException: response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=glm.GenerateContentResponse({'candidates': [{'finish_reason': 3, 'index': 0, 'safety_ratings': [{'category': 9, 'probability': 1, 'blocked': False}, {'category': 8, 'probability': 1, 'blocked': False}, {'category': 7, 'probability': 1, 'blocked': False}, {'category': 10, 'probability': 3, 'blocked': False}], 'token_count': 0, 'grounding_attributions': []}]}),
+)
+
+
+2024-12-24 21:05:14.655 | INFO     | metagpt.team:invest:90 - Investment: $3.0.
+2024-12-24 21:05:14.658 | DEBUG    | metagpt.environment.base_env:publish_message:144 - publish_message: {"id":"451ba065e3a44c15b370d966ac52e76a","content":"將查克拉凝聚在手上，搓出螺旋丸","role":"Human","cause_by":"metagpt.actions.add_requirement.UserRequirement","sent_from":"","send_to":["leader"]}
+2024-12-24 21:05:14.659 | DEBUG    | metagpt.team:run:131 - max n_round=4 left.
+2024-12-24 21:05:14.660 | DEBUG    | metagpt.roles.role:_observe:431 - leader(leader 負責分配工作) observed: ['Human: 將查克拉凝聚在手上，搓出螺旋丸...']
+2024-12-24 21:05:14.661 | DEBUG    | metagpt.roles.role:_set_state:325 - actions=[AssignJobs], state=0
+2024-12-24 21:05:14.661 | DEBUG    | metagpt.roles.role:_react:462 - leader(leader 負責分配工作): self.rc.state=0, will do AssignJobs
+2024-12-24 21:05:14.661 | INFO     | __main__:_act:117 - leader(leader 負責分配工作): to do AssignJobs
+2024-12-24 21:05:14.664 | DEBUG    | metagpt.provider.base_llm:aask:149 - [{'role': 'user', 'parts': ['\n    ## \n    "你是一位高效能的領導者，擁有出色的組織能力和溝通技巧。\n    你的責任是根據團隊成員的技能、興趣和工作負荷，明智地分配工作，確保專案成功並鼓勵團隊合作。\n    在每次任務分配時，你會明確說明每個成員的角色、任務的目標、完成的期限，以及可供使用的資源。\n    如果有成員需要幫助或資源不足，你會提出建議或調整計劃。以下是團隊背景與需要完成的任務："\n    \n    示例：\n    "團隊背景：    \n    Eden: Python Coder\nAdan: JavaScript Coder\n        \n    需要完成的任務：\n    : 將查克拉凝聚在手上，搓出螺旋丸\n    \n    請開始分配任務，並確保考慮到團隊背景成員的強項"\n    決定後只用 "<成員名稱>" 生成以下文字 \n    例如:\n    <Leader>。\n    ']}]
+2024-12-24 21:05:14.692 | DEBUG    | metagpt.roles.role:run:547 - Eden(Python Coder): no news. waiting.
+2024-12-24 21:05:14.693 | DEBUG    | metagpt.roles.role:run:547 - Adan(JavaScript Coder): no news. waiting.
+2024-12-24 21:05:19.053 | INFO     | metagpt.utils.cost_manager:update_cost:57 - Total running cost: $0.000 | Max budget: $3.000 | Current cost: $0.000, prompt_tokens: 209, completion_tokens: 5
+2024-12-24 21:05:19.058 | DEBUG    | metagpt.roles.role:_set_state:325 - actions=[AssignJobs], state=-1
+2024-12-24 21:05:19.058 | DEBUG    | metagpt.environment.base_env:publish_message:144 - publish_message: {"id":"d2dbde6bfb8a469d84d1f4e9d395416f","content":": 將查克拉凝聚在手上，搓出螺旋丸","role":"leader 負責分配工作","cause_by":"__main__.AssignJobs","sent_from":"leader","send_to":["Eden"]}
+2024-12-24 21:05:19.059 | DEBUG    | metagpt.environment.base_env:run:169 - is idle: False
+2024-12-24 21:05:19.059 | DEBUG    | metagpt.team:run:131 - max n_round=3 left.
+2024-12-24 21:05:19.060 | DEBUG    | metagpt.roles.role:run:547 - leader(leader 負責分配工作): no news. waiting.
+2024-12-24 21:05:19.061 | DEBUG    | metagpt.roles.role:_observe:431 - Eden(Python Coder) observed: ['leader 負責分配工作: : 將查克拉凝聚在手上，搓出螺旋丸...']
+2024-12-24 21:05:19.061 | DEBUG    | metagpt.roles.role:_set_state:325 - actions=[SimpleWriteCode], state=0
+2024-12-24 21:05:19.062 | DEBUG    | metagpt.roles.role:_react:462 - Eden(Python Coder): self.rc.state=0, will do SimpleWriteCode
+2024-12-24 21:05:19.062 | INFO     | __main__:_act:179 - Eden(Python Coder): to do SimpleWriteCode(SimpleWriteCode)
+2024-12-24 21:05:19.064 | DEBUG    | metagpt.provider.base_llm:aask:149 - [{'role': 'user', 'parts': ['\n    : 將查克拉凝聚在手上，搓出螺旋丸.\n    Return ``` your_code_here ``` with NO other texts,\n    your code:\n    ']}]
+2024-12-24 21:05:19.065 | DEBUG    | metagpt.roles.role:run:547 - Adan(JavaScript Coder): no news. waiting.
+2024-12-24 21:05:24.089 | INFO     | metagpt.utils.cost_manager:update_cost:57 - Total running cost: $0.000 | Max budget: $3.000 | Current cost: $0.000, prompt_tokens: 38, completion_tokens: 100
+2024-12-24 21:05:24.099 | DEBUG    | metagpt.roles.role:_set_state:325 - actions=[SimpleWriteCode], state=-1
+2024-12-24 21:05:24.099 | DEBUG    | metagpt.environment.base_env:publish_message:144 - publish_message: {"id":"3e52334d23194099b8e23a5edf9364e0","content":"```\ndef create_rasengan(chakra):\n  \"\"\"\n  凝聚查克拉在手上，搓出螺旋丸.\n\n  Args:\n    chakra: 查克拉量.\n\n  Returns:\n    螺旋丸.\n  \"\"\"\n\n  # 将查克拉凝聚在手上.\n  chakra_ball = ChakraBall(chakra)\n\n  # 搓出螺旋丸.\n  rasengan = Rasengan(chakra_ball)\n\n  return rasengan\n```","role":"Python Coder","cause_by":"__main__.SimpleWriteCode","sent_from":"","send_to":["<all>"]}
+2024-12-24 21:05:24.100 | DEBUG    | metagpt.environment.base_env:run:169 - is idle: False
+2024-12-24 21:05:24.101 | DEBUG    | metagpt.team:run:131 - max n_round=2 left.
+2024-12-24 21:05:24.101 | DEBUG    | metagpt.roles.role:run:547 - leader(leader 負責分配工作): no news. waiting.
+2024-12-24 21:05:24.102 | DEBUG    | metagpt.roles.role:run:547 - Eden(Python Coder): no news. waiting.
+2024-12-24 21:05:24.102 | DEBUG    | metagpt.roles.role:run:547 - Adan(JavaScript Coder): no news. waiting.
+2024-12-24 21:05:24.102 | DEBUG    | metagpt.environment.base_env:run:169 - is idle: True
+2024-12-24 21:05:24.103 | DEBUG    | metagpt.team:run:131 - max n_round=1 left.
+2024-12-24 21:05:24.103 | DEBUG    | metagpt.roles.role:run:547 - leader(leader 負責分配工作): no news. waiting.
+2024-12-24 21:05:24.103 | DEBUG    | metagpt.roles.role:run:547 - Eden(Python Coder): no news. waiting.
+2024-12-24 21:05:24.103 | DEBUG    | metagpt.roles.role:run:547 - Adan(JavaScript Coder): no news. waiting.
+2024-12-24 21:05:24.104 | DEBUG    | metagpt.environment.base_env:run:169 - is idle: True
+2024-12-24 21:05:24.104 | DEBUG    | metagpt.team:run:131 - max n_round=0 left.
+2024-12-24 21:05:24.105 | DEBUG    | metagpt.roles.role:run:547 - leader(leader 負責分配工作): no news. waiting.
+2024-12-24 21:05:24.105 | DEBUG    | metagpt.roles.role:run:547 - Eden(Python Coder): no news. waiting.
+2024-12-24 21:05:24.105 | DEBUG    | metagpt.roles.role:run:547 - Adan(JavaScript Coder): no news. waiting.
+2024-12-24 21:05:24.106 | DEBUG    | metagpt.environment.base_env:run:169 - is idle: True
